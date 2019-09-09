@@ -1,7 +1,7 @@
 # Python Installers
 Commands to use Anaconda to install Python environments and packages
 
-### How to install Python using `conda`:
+### How to install Python environments using `conda`:
 0. Open terminal
 1. Run the following command to install anaconda
 ```
@@ -18,4 +18,13 @@ source activate *
 4. Run the following command to deactivate the current Python version (NOT uninstall)
 ```
 source deactivate
+```
+
+### How to install Python packages using `conda`:
+```
+conda install -c conda-forge numpy
+conda install -c conda-forge pandas
+conda install -c conda-forge matplotlib
+conda install -c conda-forge scikit-learn
+conda install -c conda-forge tensorflow
 ```
